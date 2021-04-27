@@ -1,0 +1,25 @@
+// font import
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+// file imports
+@import "./theme";
+@import "./mixins";
+
+//resets
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
