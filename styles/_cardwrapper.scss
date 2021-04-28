@@ -47,18 +47,19 @@
 
     .stats-box {
       display: flex;
-      justify-content: space-between;
+      flex-direction: row;
+      justify-content: center;
       align-items: center;
-      justify-content: space-between;
-      align-items: center;
+      margin-left: 2rem;
+      padding: 1.5rem;
       gap: unset;
+
       .stats-headings {
-        flex-direction: row;
         text-align: center;
+        justify-content: center;
       }
+
       .stats-descrption {
-        flex-direction: row;
-        text-align: center;
       }
     }
   }

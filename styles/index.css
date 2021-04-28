@@ -86,37 +86,42 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: 2rem;
+  padding: 1.5rem;
   gap: unset;
 }
 
 .cardwrapper .stats-card .stats-box .stats-headings {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   text-align: center;
-}
-
-.cardwrapper .stats-card .stats-box .stats-descrption {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer {
   text-align: center;
-  font-style: none;
-  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: fixed;
+  padding-top: 60rem;
+  color: #f9fcff;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 1.7rem;
+}
+
+.footer .footer-link {
+  color: #2b3631;
 }
 
 html {
