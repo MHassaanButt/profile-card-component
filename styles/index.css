@@ -1,4 +1,126 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.maincontainer {
+  background-color: #19a2ae;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.maincontainer .background-svg-top-left {
+  position: absolute;
+  top: -60rem;
+  right: 15rem;
+}
+
+.maincontainer .background-svg-bottom-right {
+  position: absolute;
+  bottom: -60rem;
+  left: 14rem;
+}
+
+.cardwrapper {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  position: relative;
+}
+
+.cardwrapper .img-card .card-svg {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.cardwrapper .img-card .profile-pic {
+  position: absolute;
+  border-radius: 5rem;
+  position: absolute;
+  left: 11.7rem;
+  top: 8.5rem;
+  border: 6px solid white;
+}
+
+.cardwrapper .stats-card {
+  margin-top: 7rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #2d3248;
+}
+
+.cardwrapper .stats-card .name-age-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.cardwrapper .stats-card p {
+  color: #6a6f81;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.cardwrapper .stats-card .stats-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cardwrapper .stats-card .stats-box .stats-headings {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: unset;
+}
+
+.cardwrapper .stats-card .stats-box .stats-descrption {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  text-align: center;
+  font-style: none;
+  font-size: 1rem;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -10,6 +132,7 @@ html {
           box-sizing: border-box;
 }
 
+body,
 h1,
 h2,
 p {

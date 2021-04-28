@@ -1,0 +1,64 @@
+.cardwrapper {
+  // width: 30.3rem;
+  // height: 37.6rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  // overflow: hidden;
+  border-radius: 2rem;
+  // z-index: 0;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  position: relative;
+
+  .img-card {
+    .card-svg {
+      border-radius: 2rem 2rem 0 0;
+    }
+
+    .profile-pic {
+      position: absolute;
+      border-radius: 5rem;
+      position: absolute;
+      left: 11.7rem;
+      top: 8.5rem;
+      border: 6px solid white;
+    }
+  }
+  .stats-card {
+    margin-top: 7rem;
+    text-align: center;
+    font-size: $text_size_1;
+
+    font-family: "Kumbh Sans", sans-serif;
+    color: $Very_dark_desaturated_blue;
+    .name-age-heading {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    p {
+      color: $Dark_grayish_blue;
+      padding-top: 0.5rem;
+      padding-bottom: 1rem;
+    }
+
+    .stats-box {
+      display: flex;
+
+      .stats-headings {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: unset;
+      }
+      .stats-descrption {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

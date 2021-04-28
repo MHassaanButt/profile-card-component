@@ -4,9 +4,11 @@
 // file imports
 @import "./theme";
 @import "./mixins";
+@import "./maincontainer";
+@import "./cardwrapper";
+@import "./footer";
 
 //resets
-
 html {
   font-size: 62.5%;
 }
@@ -17,6 +19,7 @@ html {
   box-sizing: border-box;
 }
 
+body,
 h1,
 h2,
 p {
