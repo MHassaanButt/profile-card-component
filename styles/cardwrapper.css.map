@@ -1,9 +1,9 @@
 {
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "cardwrapper.scss"
-    ],
-    "names": [],
-    "file": "cardwrapper.css"
+  "version": 3,
+  "mappings": "",
+  "sources": [
+    "card-wrapper.scss"
+  ],
+  "names": [],
+  "file": "card-wrapper.css"
 }

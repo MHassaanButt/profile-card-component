@@ -9,11 +9,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .maincontainer .background-svg-top-left {
@@ -42,7 +42,7 @@
   }
 }
 
-.cardwrapper {
+.card-wrapper {
   min-width: 33rem;
   background-color: #ffffff;
   display: -webkit-box;
@@ -50,22 +50,22 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   border-radius: 2rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   position: relative;
 }
 
-.cardwrapper .img-card .card-svg {
+.card-wrapper .img-card .card-svg {
   border-radius: 2rem 2rem 0 0;
   width: 100%;
 }
 
-.cardwrapper .img-card .profile-pic {
+.card-wrapper .img-card .profile-pic {
   position: absolute;
   border-radius: 5rem;
   position: absolute;
@@ -74,13 +74,13 @@
   border: 6px solid white;
 }
 
-.cardwrapper .line {
+.card-wrapper .line {
   height: 1px;
   border: none;
   background-color: #d9d9d9;
 }
 
-.cardwrapper .stats-card {
+.card-wrapper .stats-card {
   margin-top: 7rem;
   text-align: center;
   font-size: 1.2rem;
@@ -88,45 +88,45 @@
   color: #2d3248;
 }
 
-.cardwrapper .stats-card .name-age-heading {
+.card-wrapper .stats-card .name-age-heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 1rem;
 }
 
-.cardwrapper .stats-card p {
+.card-wrapper .stats-card p {
   color: #6a6f81;
   padding: 0.3rem 0 0.7rem 0;
 }
 
-.cardwrapper .stats-card .stats-box {
+.card-wrapper .stats-card .stats-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 2.5rem;
 }
 
-.cardwrapper .stats-card .stats-box .stats .stats-headings {
+.card-wrapper .stats-card .stats-box .stats .stats-headings {
   text-align: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-bottom: 0.3rem;
 }
 
-.cardwrapper .stats-card .stats-box .stats .stats-descrption {
+.card-wrapper .stats-card .stats-box .stats .stats-descrption {
   letter-spacing: 0.1rem;
   line-height: 1.6rem;
 }
@@ -152,7 +152,7 @@ html {
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body,
