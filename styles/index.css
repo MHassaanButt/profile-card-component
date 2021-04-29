@@ -58,10 +58,16 @@
   border: 6px solid white;
 }
 
+.cardwrapper .line {
+  height: 1px;
+  border: none;
+  background-color: #d9d9d9;
+}
+
 .cardwrapper .stats-card {
   margin-top: 7rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Kumbh Sans", sans-serif;
   color: #2d3248;
 }
@@ -78,8 +84,7 @@
 
 .cardwrapper .stats-card p {
   color: #6a6f81;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  padding: 0.3rem 0 0.7rem 0;
 }
 
 .cardwrapper .stats-card .stats-box {
@@ -90,34 +95,33 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 2rem;
-  padding: 1.5rem;
-  gap: unset;
+  padding: 2.5rem;
 }
 
-.cardwrapper .stats-card .stats-box .stats-headings {
+.cardwrapper .stats-card .stats-box .stats .stats-headings {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 0.3rem;
+}
+
+.cardwrapper .stats-card .stats-box .stats .stats-descrption {
+  letter-spacing: 0.1rem;
+  line-height: 1.6rem;
 }
 
 .footer {
-  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   position: fixed;
-  padding-top: 60rem;
   color: #f9fcff;
-  text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   font-size: 1.7rem;
+  bottom: 0;
+  text-align: center;
 }
 
 .footer .footer-link {

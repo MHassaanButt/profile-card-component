@@ -26,13 +26,21 @@
       border: 6px solid white;
     }
   }
+
+  .line {
+    height: 1px;
+    border: none;
+    // color: $Dark_gray;
+    background-color: $light_gray;
+  }
+
   .stats-card {
     margin-top: 7rem;
     text-align: center;
     font-size: $text_size_1;
-
     font-family: "Kumbh Sans", sans-serif;
     color: $Very_dark_desaturated_blue;
+
     .name-age-heading {
       display: flex;
       justify-content: center;
@@ -41,25 +49,30 @@
 
     p {
       color: $Dark_grayish_blue;
-      padding-top: 0.5rem;
-      padding-bottom: 1rem;
+      padding: 0.3rem 0 0.7rem 0;
     }
 
     .stats-box {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
-      margin-left: 2rem;
-      padding: 1.5rem;
-      gap: unset;
 
-      .stats-headings {
-        text-align: center;
-        justify-content: center;
-      }
+      padding: 2.5rem;
 
-      .stats-descrption {
+      .stats {
+        .stats-headings {
+          text-align: center;
+          justify-content: space-around;
+          // letter-spacing: 0.1rem;
+          margin-bottom: 0.3rem;
+        }
+
+        .stats-descrption {
+          letter-spacing: 0.1rem;
+          line-height: 1.6rem;
+          // margin-bottom: 2rem;
+        }
       }
     }
   }
