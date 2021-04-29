@@ -22,13 +22,28 @@
   right: 15rem;
 }
 
+@media (min-width: 767px) {
+  .maincontainer .background-svg-top-left {
+    top: -60rem;
+    right: 65rem;
+  }
+}
+
 .maincontainer .background-svg-bottom-right {
   position: absolute;
   bottom: -60rem;
   left: 14rem;
 }
 
+@media (min-width: 767px) {
+  .maincontainer .background-svg-bottom-right {
+    bottom: -70rem;
+    left: 60rem;
+  }
+}
+
 .cardwrapper {
+  min-width: 33rem;
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,13 +55,14 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border-radius: 2rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   position: relative;
 }
 
 .cardwrapper .img-card .card-svg {
   border-radius: 2rem 2rem 0 0;
+  width: 100%;
 }
 
 .cardwrapper .img-card .profile-pic {

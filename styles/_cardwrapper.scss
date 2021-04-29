@@ -1,5 +1,5 @@
 .cardwrapper {
-  // width: 30.3rem;
+  min-width: 33rem;
   // height: 37.6rem;
   background-color: #ffffff;
   display: flex;
@@ -8,13 +8,14 @@
   // overflow: hidden;
   border-radius: 2rem;
   // z-index: 0;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   position: relative;
 
   .img-card {
     .card-svg {
       border-radius: 2rem 2rem 0 0;
+      width: 100%;
     }
 
     .profile-pic {

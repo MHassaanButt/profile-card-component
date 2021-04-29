@@ -12,11 +12,19 @@
     position: absolute;
     top: -60rem;
     right: 15rem;
+    @media (min-width: 767px) {
+      top: -60rem;
+      right: 65rem;
+    }
   }
 
   .background-svg-bottom-right {
     position: absolute;
     bottom: -60rem;
     left: 14rem;
+    @media (min-width: 767px) {
+      bottom: -70rem;
+      left: 60rem;
+    }
   }
 }
