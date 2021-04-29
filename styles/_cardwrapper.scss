@@ -1,13 +1,9 @@
 .card-wrapper {
+  @include flexBox(column, unset, unset, unset);
   min-width: 33rem;
-  // height: 37.6rem;
   background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  // overflow: hidden;
   border-radius: 2rem;
-  // z-index: 0;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   position: relative;
@@ -31,7 +27,6 @@
   .line {
     height: 1px;
     border: none;
-    // color: $Dark_gray;
     background-color: $light_gray;
   }
 
@@ -43,9 +38,7 @@
     color: $Very_dark_desaturated_blue;
 
     .name-age-heading {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
+      @include flexBox(unset, center, unset, 1rem);
     }
 
     p {
@@ -54,25 +47,19 @@
     }
 
     .stats-box {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-
+      @include flexBox(row, space-around, center, unset);
       padding: 2.5rem;
 
       .stats {
         .stats-headings {
           text-align: center;
           justify-content: space-around;
-          // letter-spacing: 0.1rem;
           margin-bottom: 0.3rem;
         }
 
         .stats-descrption {
           letter-spacing: 0.1rem;
           line-height: 1.6rem;
-          // margin-bottom: 2rem;
         }
       }
     }
